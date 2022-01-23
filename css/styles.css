@@ -1,0 +1,43 @@
+:root {
+    --oscuro: #072227;
+    --celesteOscuro: #35858B;
+    --celeste2: #4FBDBA;
+    --celeste3: #AEFEFF;
+    --amarillo: #FFC600;
+    
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px; /*1rem = 10px con esa configuracion*/
+    font-family: 'Krub',sans-serif;
+}
+
+.titulo{
+    text-align: center;
+    color: var(--oscuro);
+
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.contenedor{
+    width: 120rem;
+    margin: 0 auto;/*top-rigth-botton-left*/
+
+}
+.nav-bg{
+    background-color: var(--celesteOscuro);
+}
+
+.navegacion-principal a{
+    
+}
+
+span{
+    font-size: 2rem;
+}
